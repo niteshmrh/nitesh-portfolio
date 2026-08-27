@@ -3,6 +3,7 @@
 import { useEffect, useState, type CSSProperties } from "react";
 import { Moon, RotateCcw, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
+import { trackEvent } from "@/lib/analytics";
 
 const palettes = [
   { name: "Purple", value: "purple", color: "#8b5cf6" },
@@ -30,9 +31,20 @@ export function ThemeControls() {
     setPalette(value);
     localStorage.setItem("portfolio-palette", value);
     document.documentElement.dataset.palette = value;
+    trackEvent("palette_change", {
+      palette: value,
+    });
   };
 
   const reset = () => selectPalette("purple");
+
+  const changeTheme = (value: "dark" | "light") => {
+    setTheme(value);
+    trackEvent("theme_change", {
+      theme: value,
+      source: "theme_panel",
+    });
+  };
 
   return (
     <div className="theme-panel docmind-card docmind-card-hover">
@@ -42,7 +54,7 @@ export function ThemeControls() {
           className={
             mounted && theme === "dark" ? "theme-mode active" : "theme-mode"
           }
-          onClick={() => setTheme("dark")}
+          onClick={() => changeTheme("dark")}
         >
           <Moon size={15} /> Dark
         </button>
@@ -50,7 +62,7 @@ export function ThemeControls() {
           className={
             mounted && theme === "light" ? "theme-mode active" : "theme-mode"
           }
-          onClick={() => setTheme("light")}
+          onClick={() => changeTheme("light")}
         >
           <Sun size={15} /> Light
         </button>
