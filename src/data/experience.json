@@ -1,0 +1,47 @@
+[
+  {
+    "period": "Aug 2025 — Present",
+    "role": "Software Developer",
+    "company": "Interlinkages India Pvt. Ltd. (Credence Data)",
+    "location": "Gurugram, Haryana",
+    "description": "Architecting configurable multi-region document management and evaluation platforms, scalable REST APIs, streaming data pipelines, background jobs, and production services. Built an evaluation workflow that reduced report generation from ~2 hours to under 10 seconds.",
+    "highlights": [
+      "Multi-region AWS S3 document routing based on entity configuration",
+      "GB-scale Node.js streaming pipeline with concurrency, backpressure, retries, and scheduled execution",
+      "MongoDB aggregation tuning, indexing, caching, and streaming for backend performance",
+      "Third-party REST/SOAP integrations with resilient authentication, validation, retries, and standardized errors",
+      "Production monitoring, incident investigation, RCA, and preventive fixes using CloudWatch, New Relic, and application logs"
+    ],
+    "technologies": ["Node.js", "Express.js", "Sails.js", "TypeScript", "MongoDB", "AWS", "Docker"]
+  },
+  {
+    "period": "Jul 2023 — Aug 2025",
+    "role": "Software Developer",
+    "company": "Fairassets Technologies India Pvt. Ltd. (Faircent)",
+    "location": "Gurugram, Haryana",
+    "description": "Built scalable fintech backend services, REST APIs, internal administrative platforms, high-volume streaming pipelines, and performance improvements across customer onboarding, payments, EMI, credit, and operational workflows.",
+    "highlights": [
+      "Integrated DigiLocker eKYC and Karza PAN verification APIs",
+      "Engineered a Node.js streaming pipeline to process 80+ crore records from 814 files with minimal memory",
+      "Built APIs for payment processing, EMI management, foreclosure, SOA, credit reports, search, and customer profiles",
+      "Developed React.js and Next.js administrative platforms for internal teams",
+      "Reduced unnecessary React re-renders by 50% and improved page load time by 35%",
+      "Implemented Redis caching, reducing database load and improving application efficiency by 40%"
+    ],
+    "technologies": ["Node.js", "React.js", "Next.js", "MongoDB", "Redis", "Express.js", "JavaScript"]
+  },
+  {
+    "period": "Jan 2023 — Jul 2023",
+    "role": "Software Engineer Intern",
+    "company": "Fairassets Technologies India Pvt. Ltd. (Faircent)",
+    "location": "Gurugram, Haryana",
+    "description": "Developed REST APIs and internal operational tools while improving backend performance through query optimization and concurrent Promise-based processing.",
+    "highlights": [
+      "Optimized RESTful APIs and improved response times by 10%",
+      "Built an internal EMI Collection Dashboard with CRUD operations",
+      "Used JavaScript Promise APIs for concurrent processing, reducing API response time by 50%",
+      "Designed an AWS SNS webhook and PHP monitoring dashboard for notification tracking"
+    ],
+    "technologies": ["Node.js", "JavaScript", "PHP", "AWS SNS", "REST APIs"]
+  }
+]

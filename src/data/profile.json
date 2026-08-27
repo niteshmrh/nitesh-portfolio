@@ -1,0 +1,50 @@
+{
+  "name": "Nitesh Kumar",
+  "initials": "NK",
+  "role": "Full Stack Software Engineer",
+  "eyebrow": "Software Engineer \u00b7 Distributed Systems \u00b7 AI",
+  "heroTitle": "I build scalable systems and AI-powered products.",
+  "summaryShort": "Full-Stack Software Developer with 3+ years of professional experience, focused on scalable web applications, backend systems, and AI-powered products.",
+  "summaryLong": "Full-Stack Software Engineer with 3+ years of experience building scalable, high-performance microservices and AI-powered applications using React.js, Node.js, and Python. Experienced in backend architecture, REST APIs, cloud solutions, distributed data processing, and performance optimization. I enjoy working across the stack—from APIs and data pipelines to polished interfaces and AI-powered workflows.",
+  "location": "Gurugram, Haryana, India",
+  "availability": "Open to opportunities",
+  "emails": ["nitesh.mca20.du@gmail.com"],
+  "currentRole": {
+    "company": "Credence Data",
+    "title": "Software Developer"
+  },
+  "currentProject": {
+    "name": "DocMind AI",
+    "description": "AI-Powered Document Intelligence Platform",
+    "url": "https://docmind-ai-xi.vercel.app/",
+    "technologies": ["Node.js", "TypeScript", "Next.js", "AWS"]
+  },
+  "links": {
+    "github": "https://github.com/niteshmrh",
+    "linkedin": "https://www.linkedin.com/in/niteshmrh",
+    "leetcode": "https://leetcode.com/u/niteshmrh/",
+    "resume": "https://drive.google.com/drive/folders/12oqrEBpg0kYFjYqiQAsgbZVktXRJCLfe?usp=sharing"
+  },
+  "stats": [
+    {
+      "value": "3+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "15+",
+      "label": "Projects Built"
+    },
+    {
+      "value": "80Cr+",
+      "label": "Records Processed"
+    },
+    {
+      "value": "5+",
+      "label": "Certifications"
+    }
+  ],
+  "heroTitleLead": "I build scalable software",
+  "heroTitleAccent": "& AI powered products.",
+  "heroOneLiner": "Building scalable systems, data pipelines, and AI-powered products that turn complex problems into reliable software.",
+  "profileImage": "/images/myPic/nitesh_portfolio_bg.png"
+}

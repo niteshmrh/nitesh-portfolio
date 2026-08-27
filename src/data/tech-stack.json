@@ -1,0 +1,80 @@
+[
+  {
+    "category": "Languages",
+    "items": [
+      { "name": "JavaScript", "icon": "javascript", "color": "F7DF1E" },
+      { "name": "TypeScript", "icon": "typescript", "color": "3178C6" },
+      { "name": "Java", "icon": "openjdk", "color": "ED8B00" },
+      { "name": "Python", "icon": "python", "color": "3776AB" },
+      { "name": "SQL", "icon": "mysql", "color": "4479A1" }
+    ]
+  },
+  {
+    "category": "Frontend",
+    "items": [
+      { "name": "React.js", "icon": "react", "color": "61DAFB" },
+      { "name": "Next.js", "icon": "nextdotjs", "color": "FFFFFF" },
+      { "name": "HTML5", "icon": "html5", "color": "E34F26" },
+      { "name": "CSS3", "icon": "css3", "color": "1572B6" },
+      { "name": "MUI", "icon": "mui", "color": "007FFF" }
+    ]
+  },
+  {
+    "category": "Backend",
+    "items": [
+      { "name": "Node.js", "icon": "nodedotjs", "color": "339933" },
+      { "name": "Express.js", "icon": "express", "color": "FFFFFF" },
+      { "name": "Sails.js", "icon": "sailsdotjs", "color": "000000" },
+      { "name": "Django", "icon": "django", "color": "092E20" },
+      { "name": "REST APIs", "icon": "fastapi", "color": "009688" }
+    ]
+  },
+  {
+    "category": "AI / LLMs",
+    "items": [
+      { "name": "RAG", "icon": "openai", "color": "FFFFFF" },
+      { "name": "Agentic AI", "icon": "anthropic", "color": "D97757" },
+      { "name": "Prompt Engineering", "icon": "openai", "color": "FFFFFF" },
+      { "name": "Vector Databases", "icon": "postgresql", "color": "4169E1" },
+      { "name": "GPT / Claude", "icon": "openai", "color": "FFFFFF" }
+    ]
+  },
+  {
+    "category": "Databases",
+    "items": [
+      { "name": "MongoDB", "icon": "mongodb", "color": "47A248" },
+      { "name": "MySQL", "icon": "mysql", "color": "4479A1" },
+      { "name": "Redis", "icon": "redis", "color": "DC382D" },
+      { "name": "PostgreSQL", "icon": "postgresql", "color": "4169E1" }
+    ]
+  },
+  {
+    "category": "Cloud & DevOps",
+    "items": [
+      { "name": "AWS", "icon": "amazonwebservices", "color": "FF9900" },
+      { "name": "Docker", "icon": "docker", "color": "2496ED" },
+      { "name": "Jenkins", "icon": "jenkins", "color": "D24939" },
+      { "name": "Git", "icon": "git", "color": "F05032" },
+      { "name": "Linux", "icon": "linux", "color": "FCC624" },
+      { "name": "Bitbucket", "icon": "bitbucket", "color": "0052CC" }
+    ]
+  },
+  {
+    "category": "Engineering",
+    "items": [
+      { "name": "System Design", "icon": "diagramsdotnet", "color": "F08705" },
+      {
+        "name": "Distributed Systems",
+        "icon": "apachekafka",
+        "color": "FFFFFF"
+      },
+      { "name": "Caching", "icon": "redis", "color": "DC382D" },
+      { "name": "Data Streams", "icon": "apachekafka", "color": "FFFFFF" },
+      {
+        "name": "Performance Optimization",
+        "icon": "speedtest",
+        "color": "FFFFFF"
+      }
+    ]
+  }
+]

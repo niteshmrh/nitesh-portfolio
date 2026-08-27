@@ -1,0 +1,53 @@
+[
+  {
+    "number": "01",
+    "title": "DocMind AI",
+    "category": "AI / Full Stack",
+    "summary": "Full-stack AI-powered document intelligence platform using RAG, vector embeddings, similarity search, and contextual LLM responses.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "pgvector",
+      "OpenAI",
+      "Ollama"
+    ],
+    "featured": true,
+    "url": "https://docmind-ai-xi.vercel.app/",
+    "github": "https://github.com/niteshmrh/docmind-ai",
+    "image": "/images/projects/docmind.svg",
+    "highlights": [
+      "Document chunking and vector embeddings with PostgreSQL / pgvector",
+      "JWT authentication, document management, chat sessions, and responsive interfaces",
+      "Provider-agnostic AI architecture supporting OpenAI and Ollama",
+      "Deployed with Vercel and Render"
+    ]
+  },
+  {
+    "number": "02",
+    "title": "E-Commerce",
+    "category": "Full Stack",
+    "summary": "Full-stack e-commerce platform with secure authentication, role-based authorization, product and order management, and business analytics.",
+    "technologies": [
+      "TypeScript",
+      "MongoDB",
+      "Express.js",
+      "Next.js",
+      "Node.js",
+      "Redux",
+      "Firebase",
+      "Chart.js"
+    ],
+    "featured": true,
+    "url": "https://github.com/niteshmrh/Ecommerce_24",
+    "github": "https://github.com/niteshmrh/Ecommerce_24",
+    "image": "/images/projects/ecommerce.svg",
+    "highlights": [
+      "Product, order, inventory, and user management modules",
+      "JWT authentication and role-based access control",
+      "Reusable backend architecture and optimized database operations",
+      "Responsive UI with component-driven frontend architecture"
+    ]
+  }
+]
