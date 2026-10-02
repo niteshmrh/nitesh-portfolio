@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Web Development",
+    "description": "Responsive websites and modern interfaces using React and Next.js.",
+    "icon": "code2"
+  },
+  {
+    "title": "Backend & APIs",
+    "description": "Scalable Node.js services, REST APIs, authentication, and integrations.",
+    "icon": "database"
+  },
+  {
+    "title": "Performance Optimization",
+    "description": "Improve application speed, caching, and overall performance.",
+    "icon": "gauge"
+  },
+  {
+    "title": "Full-Stack Development",
+    "description": "End-to-end applications connecting frontend, backend, and databases.",
+    "icon": "layers3"
+  }
+]

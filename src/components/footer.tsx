@@ -1,4 +1,11 @@
-import { Github, Linkedin, Mail, ArrowUp } from "lucide-react";
+import {
+  Github,
+  Linkedin,
+  Mail,
+  ArrowUp,
+  Instagram,
+  Youtube,
+} from "lucide-react";
 import profile from "@/data/profile.json";
 import { TrackedLink } from "./tracked-link";
 
@@ -36,6 +43,22 @@ export function Footer() {
           eventName="email_click"
         >
           <Mail size={16} />
+        </TrackedLink>
+        <TrackedLink
+          href={profile.links.instagram}
+          target="_blank"
+          rel="noreferrer"
+          eventName="instagram_click"
+        >
+          <Instagram size={16} />
+        </TrackedLink>
+        <TrackedLink
+          href={profile.links.youtube}
+          target="_blank"
+          rel="noreferrer"
+          eventName="youtube_click"
+        >
+          <Youtube size={16} />
         </TrackedLink>
         <a href="#home" aria-label="Back to top">
           <ArrowUp size={16} />

@@ -7,7 +7,9 @@ import { Stack } from "@/components/stack";
 import { Certifications } from "@/components/certifications";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
+import { SocialLinks } from "@/components/social-links";
 import profile from "@/data/profile.json";
+import { Freelance } from "@/components/freelance";
 
 export default function Home() {
   return (
@@ -28,6 +30,8 @@ export default function Home() {
       <Projects />
       <Stack />
       <Certifications />
+      <Freelance />
+      <SocialLinks />
       <Contact />
       <Footer />
     </main>

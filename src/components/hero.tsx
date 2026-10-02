@@ -7,6 +7,8 @@ import {
   Github,
   Linkedin,
   Mail,
+  Instagram,
+  Youtube,
 } from "lucide-react";
 import Image from "next/image";
 import profile from "@/data/profile.json";
@@ -73,6 +75,22 @@ export function Hero() {
               eventName="email_click"
             >
               <Mail size={18} />
+            </TrackedLink>
+            <TrackedLink
+              href={profile.links.instagram}
+              target="_blank"
+              rel="noreferrer"
+              eventName="instagram_click"
+            >
+              <Instagram size={16} />
+            </TrackedLink>
+            <TrackedLink
+              href={profile.links.youtube}
+              target="_blank"
+              rel="noreferrer"
+              eventName="youtube_click"
+            >
+              <Youtube size={16} />
             </TrackedLink>
           </div>
         </div>

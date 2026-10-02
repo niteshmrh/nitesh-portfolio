@@ -11,6 +11,8 @@ const links = [
   "Projects",
   "Stack",
   "Certifications",
+  "Freelance",
+  "Socials",
   "Contact",
 ];
 

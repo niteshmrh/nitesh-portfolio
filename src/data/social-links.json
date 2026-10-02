@@ -1,0 +1,18 @@
+[
+  {
+    "name": "YouTube",
+    "link": "Subscribe on YouTube",
+    "username": "@CoderKaCaravan",
+    "logo": "youtube",
+    "description": "Developer interviews, career journeys, coding, and real experiences.",
+    "url": "https://www.youtube.com/@CoderKaCaravan"
+  },
+  {
+    "name": "Instagram",
+    "link": "Follow on Instagram",
+    "username": "@coderkacaravan",
+    "logo": "instagram",
+    "description": "Developer insights, career stories, coding updates, and behind-the-scenes content.",
+    "url": "https://www.instagram.com/coderkacaravan/"
+  }
+]
