@@ -6,7 +6,7 @@ The portfolio focuses on clean UI, interactive themes, project showcases, profes
 
 ## Live Portfolio
 
-- **Portfolio:** https://niteshmrh-portfolio.vercel.app/
+- **Portfolio:** https://niteshmrh.vercel.app/
 - **DocMind AI:** https://docmind-ai-xi.vercel.app/
 
 ---
